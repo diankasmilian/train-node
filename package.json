@@ -1,0 +1,26 @@
+{
+  "name": "train-node",
+  "version": "1.0.0",
+  "description": "train project",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diankasmilian/train-node.git"
+  },
+  "author": "Diana Smilian <dianka.kulakevich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diankasmilian/train-node/issues"
+  },
+  "homepage": "https://github.com/diankasmilian/train-node#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
